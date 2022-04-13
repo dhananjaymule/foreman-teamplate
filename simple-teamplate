@@ -1,7 +1,7 @@
 <%#
 kind: PXELinux
 name: Alterator default PXELinux
-model: 
+model: ReportTemplate
 oses:
 - ALTLinux p6
 - ALTLinux p7
