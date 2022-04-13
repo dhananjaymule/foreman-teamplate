@@ -1,10 +1,10 @@
 <%#
 kind: job_template
-name: Ansible - Ansible Inventory-555
-description: This template has a special meaning and should not be renamed.
-snippet: false
+name: Module Action - Ansible Default
 model: JobTemplate
-provider_type: SSH
+job_category: Ansible Modules
+description_format: "Module %{action} %{module_spec}"
+provider_type: Ansible
 require:
 - plugin: foreman_ansible
   version: '3.1.0'
