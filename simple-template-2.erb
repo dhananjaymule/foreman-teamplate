@@ -11,3 +11,4 @@ require:
 - plugin: katello
   version: '3.9.0'
 -%>
+<% command = "dnf -y module #{input(:action)} #{input(:module_spec)} #{input(:options)}" %>
